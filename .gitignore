@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env/
+
+# Manim output
+media/
+output/
+*.mp4
+*.mov
+*.gif
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System/editor
+.DS_Store
+.vscode/
+.idea/
