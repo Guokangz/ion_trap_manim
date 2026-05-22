@@ -5,7 +5,7 @@ Programmatic Manim animations for explaining the basic confinement mechanism of 
 
 
 
-**Quantum Control: How Can a Dynamic Electric Field Trap an Ion?**
+**Quantum Control: How Can an Electric Field Trap an Ion?**
 
 ---
 
@@ -31,6 +31,14 @@ In quantum control, a central task is to manipulate microscopic particles withou
 However, a static electric potential cannot simply provide a stable three-dimensional trapping minimum in free space. The Paul trap avoids this limitation by using a time-dependent RF quadrupole field. The resulting dynamic stabilization can be understood through the pseudopotential picture.
 
 This project visualizes that mechanism using concise scientific animations.
+
+GitHub repository:
+
+```text
+https://github.com/Guokangz/ion_trap_manim
+```
+
+This project is intended only for academic presentation, learning, and technical exchange.
 
 ---
 
@@ -74,7 +82,7 @@ A typical setup is:
 conda create -n manim python=3.11
 conda activate manim
 pip install manim numpy
-````
+```
 
 FFmpeg is also required for video rendering and transcoding.
 
@@ -112,6 +120,7 @@ ion_trap_manim/
 │   ├── render_all_ppt_hq.sh
 │   ├── render_full_video.sh
 │   └── clean_outputs.sh
+├── CHANGELOG.md
 ├── README.md
 └── .gitignore
 ```
@@ -219,7 +228,11 @@ __pycache__/
 .pytest_cache/
 *.pyc
 *.mp4
+*.mov
 *.gif
+*.webm
+*.ppt
+*.pptx
 ```
 
 Rendered videos can be regenerated locally using the scripts above.
@@ -258,4 +271,3 @@ This project is intended for academic demonstration and learning purposes.
 If you reuse or modify the code, please cite or link back to this repository when appropriate.
 
 ````
-

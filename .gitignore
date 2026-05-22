@@ -13,6 +13,9 @@ output/
 *.mp4
 *.mov
 *.gif
+*.webm
+*.ppt
+*.pptx
 
 # Jupyter
 .ipynb_checkpoints/
